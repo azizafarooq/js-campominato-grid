@@ -1,0 +1,38 @@
+.bordered{
+    border: 2px dashed red;
+}
+
+body{
+    text-align: center;
+    background-color: hsl(159.84deg 100% 74.9%);
+}
+
+button{ 
+    margin-top: 10px;
+}
+.wrapper{
+    background-color: hsl(159.84deg 100% 74.9%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.grid-container{
+    width: 700px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: calc(100% /10);
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px dashed blue;
+}
