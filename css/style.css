@@ -35,4 +35,10 @@ body{
     justify-content: center;
     align-items: center;
     border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.clicked{
+    background-color: aqua;
+    color: white;
 }
