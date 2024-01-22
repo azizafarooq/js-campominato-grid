@@ -29,9 +29,9 @@ body{
 }
 
 .box{
-    width: 70px; /* 10 colonne, sottrai il margine */
-    height: 70px; /* 10 righe, sottrai il margine */
-    box-sizing: border-box; /* Include il bordo nelle dimensioni */
+    width: 70px;
+    height: 70px; 
+    box-sizing: border-box; 
     display: flex;
     justify-content: center;
     align-items: center;
