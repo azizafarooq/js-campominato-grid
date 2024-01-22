@@ -7,9 +7,10 @@ function generateGrid() {
     let grid = document.createElement('div');
     grid.className = 'grid-container';
 
-    for (let i = 0; i < 100; i++) {
+    for (let i = 1; i < 101; i++) {
         const box = document.createElement('div');
         box.className = 'box';
+        box.innerText =i;
         grid.appendChild(box);
     }
 
