@@ -2,17 +2,19 @@
     border: 2px dashed red;
 }
 
-body{
-    text-align: center;
+.button-container{
     background-color: hsl(159.84deg 100% 74.9%);
+    text-align: center;
+    margin: 10px;
+}
+body{
+   
+    background-color: aquamarine;
 }
 
-button{ 
-    margin-top: 10px;
-}
-.wrapper{
+  
+#wrapper{
     background-color: hsl(159.84deg 100% 74.9%);
-    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,18 +24,16 @@ button{
     width: 700px;
     height: 700px;
     display: flex;
-    justify-content: center;
-    align-content: center;
     flex-wrap: wrap;
     border: 3px solid black;
 }
 
 .box{
-    width: calc(100% /10);
-    aspect-ratio: 1;
+    width: 70px; /* 10 colonne, sottrai il margine */
+    height: 70px; /* 10 righe, sottrai il margine */
+    box-sizing: border-box; /* Include il bordo nelle dimensioni */
     display: flex;
     justify-content: center;
     align-items: center;
-
     border: 2px dashed blue;
 }
