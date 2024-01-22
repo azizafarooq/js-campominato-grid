@@ -25,6 +25,7 @@ button{
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
+    border: 3px solid black;
 }
 
 .box{
