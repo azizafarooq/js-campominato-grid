@@ -17,6 +17,11 @@ function generateGrid() {
         grid.appendChild(box);
     }
 
+    const previousGrid = wrapper.querySelector('.grid-container');
+    if (previousGrid){
+        wrapper.removeChild(previousGrid);
+    }
+
     wrapper.appendChild(grid);
     return grid;
 }
